@@ -50,7 +50,10 @@ Artifacts allow developers and security teams to:
 - Add dependency scanning (e.g., pip-audit)
 
 
-### Author
-### Osama M Medht
+## Author
+
+**Osama Mohammed**  
+GitHub: (https://github.com/OsamaMMedht)  
+Email: osama.MohamedMedhat@gmail.com
 
 ذذذ
