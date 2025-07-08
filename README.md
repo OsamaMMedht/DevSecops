@@ -43,15 +43,14 @@ Artifacts allow developers and security teams to:
 - Simple, clean structure to build upon for full DevSecOps flow
 
 ## Future Improvements
-Add Trivy or Snyk for deeper image scanning
+- Add Trivy or Snyk for deeper image scanning
 
-Include secrets scanning (e.g., Gitleaks)
+- Include secrets scanning (e.g., Gitleaks)
 
-Add dependency scanning (e.g., pip-audit)
+- Add dependency scanning (e.g., pip-audit)
 
-Slack/Teams alerts for failed scans
 
-Author
-Osama M Medht
+### Author
+### Osama M Medht
 
 ذذذ
