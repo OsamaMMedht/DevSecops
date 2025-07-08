@@ -27,7 +27,7 @@ jobs:
         if: always()
         with:
           name: bandit-findings
-          path: banditreport.json
+          path: banditreport.sarif
 
   image_scan:
     name: Build Image and Run Image Scan
