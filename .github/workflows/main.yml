@@ -20,14 +20,14 @@ jobs:
         run: pip install bandit
 
       - name: Run Bandit Scan
-        run: bandit -ll -ii -r . -f json -o banditreport.json
+        run: bandit -ll -ii -r . -f html -o banditreport.html
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4.6.2
         if: always()
         with:
           name: bandit-findings
-          path: banditreport.sarif
+          path: banditreport.html
 
   image_scan:
     name: Build Image and Run Image Scan
